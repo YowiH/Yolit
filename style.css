@@ -150,7 +150,11 @@ main a {
 }
 
 #book-notes-displayer .toggle-container .context-note.active li span {
-    font-style: italic;
+    text-decoration: underline;
+}
+
+#book-notes-displayer .toggle-container .context-note.active li {
+    margin-bottom: 5px;
 }
 
 #book-notes-displayer article h3 {
