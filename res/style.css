@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #303030;
+    background-color: #f5f5f5;
+}
+
+body ul {
+    list-style: none;
+}
+
+header {
+    background-color: #303030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main hr {
+    margin-bottom: 1.5rem;
+}
+
+main h1 {
+    margin-top: 3rem;
+}
+
+main article {
+    margin-bottom: 2rem;
+}
+
+main article img {
+    border-radius: 0.2rem;
+    width: 200px;
+    display: block;
+    margin: 1.2rem auto 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+main article img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+main article .toggle {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #e5e5e5;
+}
+
+main article .toggle:hover {
+    background-color: #d5d5d5;
+    cursor: pointer;
+}
+
+main article .toggle-button {
+    display: inline-block;
+    margin-right: 0.3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+main article .toggle-button.active {
+    transform: rotate(90deg);
+}
+
+main article .toggle-content {
+    display: none;
+    transition: all 0.2s ease-in-out;
+}
+
+main article .toggle-content.active {
+    display: inline;
+}
+
+main article .toggle-content li .character{
+    text-align: center;
+}
+
+main article h3 {
+    margin: 0.7rem 0.5rem 0;
+    padding: 0.2rem;
+}
+
+main article ul li {
+    text-align: left;
+    padding: 0.25rem 0.5rem;
+}
