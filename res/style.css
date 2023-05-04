@@ -50,13 +50,13 @@ main article img {
     transition: all 0.2s ease-in-out;
 }
 
-main article img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+main h2 {
+    margin-bottom: 1.5rem;
 }
 
 main article .toggle {
-    margin: 1rem;
+    width: 600px;
+    margin: 1rem auto;
     padding: 0.5rem;
     background-color: #e5e5e5;
 }
@@ -85,8 +85,9 @@ main article .toggle-content.active {
     display: inline;
 }
 
-main article .toggle-content li .character{
-    text-align: center;
+main article .toggle-content li {
+    text-align: left;
+    padding: 0.25rem 0.5rem;
 }
 
 main article h3 {
@@ -94,7 +95,10 @@ main article h3 {
     padding: 0.2rem;
 }
 
-main article ul li {
+main article .chapter ul li {
     text-align: left;
     padding: 0.25rem 0.5rem;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
 }

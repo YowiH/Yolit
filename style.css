@@ -35,7 +35,8 @@ main img {
 
 main #searchbar {
     text-align: center;
-    margin-bottom: 2rem;
+    width: 60%;
+    margin: 0 auto 2rem;
 }
 
 main #searchbar input {
@@ -57,10 +58,12 @@ main #searchbar input:focus {
 main ul li {
     background-color: #e5e5e5;
     list-style: none;
-    margin-bottom: 0.5rem;
+    margin: 0 auto 0.5rem;
     padding: 0.5rem;
     text-align: center;
     transition: all 0.2 ease-in-out;
+    min-width: 250px;
+    width: 40%;
 }
 
 main ul li:hover {
