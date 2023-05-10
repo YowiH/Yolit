@@ -55,10 +55,11 @@ main h2 {
 }
 
 main article .toggle {
-    width: 600px;
+    width: 20rem;
     margin: 1rem auto;
     padding: 0.5rem;
     background-color: #e5e5e5;
+    transition: all 0.3s ease-in-out;
 }
 
 main article .toggle:hover {
@@ -101,4 +102,10 @@ main article .chapter ul li {
     max-width: 800px;
     display: block;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 1000px) {
+    main article .toggle {
+        width: 40rem;
+    }
 }
